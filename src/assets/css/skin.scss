@@ -1,0 +1,40 @@
+// 主题颜色
+$color-primary: #3f81fe;
+// 提示色
+$color-success: #19be6b; // 成功-绿
+$color-warning: #e6a23c; // 警告-黄
+$color-danger: #f56c6c; // 危险-红
+$color-info: #909399; // 禁用-灰
+
+// 文字颜色
+$font-primary: var(--fontColorPrimary, #303133); // 主要文字颜色
+$font-regular: var(--fontColorRegular, #606266); // 常规文字颜色
+$font-secondary: var(--fontColorSecondary, #909399); // 次要文字颜色
+$font-placeholder: var(--fontColorPlaceholder, #c0c4cc); // 占位文字颜色
+
+// 边框颜色
+$border-color-base: var(--borderColorBase, #dcdfe6); // 一级边框色
+$border-color-light: var(--borderColorLight, #e4e7ed); // 二级边框色
+$border-color-lighter: var(--borderColorLighter, #ebeef5); // 三级边框色
+
+// 背景颜色
+$background-color-base: var(--bgColorBase, #ffffff); // 一级背景色
+$background-color-light: var(--bgColorLight, #f0f2f5); // 二级背景色
+$background-color-lighter: var(--bgColorLighter, #f5f7fa); // 三级背景色
+
+// 阴影色
+$box-shadow-color: var(--boxShadowColor, #d8e5ff);
+
+// 字体大小
+$fs32: 26px; // 指标
+$fs24: 24px; // 大标题
+$fs22: 22px; // 中标题
+$fs20: 20px; // 主标题
+$fs18: 18px; // 标题
+$fs16: 16px; // 小标题
+$fs14: 14px; // 正文
+$fs12: 12px; // 辅助文字
+
+// 其它特殊区域颜色
+$headerBgColor: var(--headerBgColor, #363d50); // headbar背景颜色
+$asideBgColor: var(--asideBgColor, #363d50); // sidebar背景颜色

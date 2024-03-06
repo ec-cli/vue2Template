@@ -1,0 +1,79 @@
+{
+  "name": "vue-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "test": "vue-cli-service build --mode test",
+    "build": "vue-cli-service build --mode prod",
+    "lint": "vue-cli-service lint",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "animate.css": "^4.1.1",
+    "axios": "^0.18.0",
+    "chalk": "^3.0.0",
+    "echarts": "^5.4.1",
+    "element-ui": "^2.15.3",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-css-wrap": "^0.1.2",
+    "js-fastcode": "^1.0.6",
+    "screenfull": "^5.0.2",
+    "vue": "^2.6.11",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.17.12",
+    "@babel/plugin-proposal-optional-chaining": "^7.17.12",
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-plugin-vuex": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "@vue/compiler-sfc": "^3.2.31",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-polyfill": "^6.26.0",
+    "commitizen": "^4.3.0",
+    "compression-webpack-plugin": "^6.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
+    "element-theme-chalk": "^2.15.10",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "happypack": "^5.0.1",
+    "hard-source-webpack-plugin": "^0.13.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "node-sass": "^6.0.1",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "sass-loader": "^10.0.1",
+    "svg-sprite-loader": "^6.0.9",
+    "terser-webpack-plugin": "^4.2.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-loader": "^14.2.4",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

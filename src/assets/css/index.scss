@@ -1,0 +1,202 @@
+@import "./element.scss";
+@import "./mixin.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+  /*部分QQ浏览器器不显示滚动条*/
+  overflow: initial;
+}
+body {
+  height: 100%;
+  color: $font-primary;
+  object-fit: cover;
+  font: 14px/1.5 \5fae\8f6f\96c5\9ed1, \5b8b\4f53, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro Hei", "Droid Sans Fallback", SimSun, sans-serif;
+}
+#app {
+  height: 100%;
+}
+
+[v-cloak] {
+  display: none !important;
+}
+
+:focus {
+  outline: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+}
+
+a,
+img,
+iframe,
+button {
+  border: none;
+  outline: 0;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+  font-size: 100%;
+  font-family: inherit;
+  color: $font-primary;
+}
+
+select {
+  margin: inherit;
+}
+
+abbr,
+article,
+aside,
+audio,
+canvas,
+datalist,
+details,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+mark,
+menu,
+meter,
+nav,
+output,
+progress,
+section,
+time,
+video {
+  display: block;
+}
+
+body {
+  .clrfix {
+    zoom: 1;
+  }
+
+  .clrfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .fr {
+    float: right;
+  }
+
+  .fn {
+    float: none;
+  }
+
+  .text-l {
+    text-align: left;
+  }
+
+  .text-c {
+    text-align: center;
+  }
+
+  .text-r {
+    text-align: right;
+  }
+
+  .text-j {
+    text-align: justify;
+  }
+
+  .ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .transition {
+    transition: 0.28s;
+  }
+
+  .hover {
+    transition: 0.28s;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  .color-primary {
+    color: $color-primary;
+  }
+
+  .color-success {
+    color: $color-success;
+  }
+
+  .color-warning {
+    color: $color-warning;
+  }
+
+  .color-danger {
+    color: $color-danger;
+  }
+
+  .app-container {
+    padding: 15px;
+  }
+  // 图表缩放按钮样式
+  .lock-btn {
+    .svg-icon {
+      color: $color-primary;
+    }
+  }
+  // 搜索栏锁定
+  .search-content {
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    .el-card__body {
+      padding: 10px 20px 0px !important;
+      .el-form {
+        .el-form-item {
+          margin-bottom: 10px !important;
+        }
+      }
+    }
+  }
+}

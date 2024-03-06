@@ -1,0 +1,61 @@
+<!--
+ * @Author: rk
+ * @Date: 2022-03-15 10:35:06
+ * @Description: 入口文件
+ * @LastEditors: rk
+ * @LastEditTime: 2023-07-11 17:45:06
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title>公共模板开发</title>
+  </head>
+
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script type="text/javascript">
+    (function (window) {
+      var userAgent = navigator.userAgent;
+      var isIE =
+        userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1;
+      var isIE11 =
+        userAgent.indexOf("Trident") > -1 && userAgent.indexOf("rv:11.0") > -1;
+      var compatibilityMode =
+        window.navigator.userAgent.indexOf("compatible") != -1;
+      // var safari = window.navigator.userAgent.indexOf("Safari") != -1; //safari浏览器
+      if (isIE || isIE11 || compatibilityMode) {
+        document.getElementById("app").style.display = "none";
+        var str = "抱歉！您浏览的页面无法正常显示";
+        var str2 =
+          "推荐使用<a style='color:#1b84ed' href='https://www.google.cn/chrome/' target='blank'> Chrome </a>、<a style='color:#1b84ed' href='http://www.firefox.com.cn/' target='blank'> Firefox </a>或<a style='color:#1b84ed' href='https://www.microsoft.com/zh-cn/edge' target='blank'> Edge </a>浏览器，如果您使用的是360、搜狗、QQ等双核浏览器，";
+        var str1 = "请切换到极速模式访问(如下图所示)";
+        var str3 = "./plug/image/isIe.png";
+        document.write(
+          "<div><div style='width:900px;margin:0 auto;font-family:Microsoft YaHei'>" +
+            "<p style='padding-top:100px;margin:0;text-align:center;margin-bottom:40px;color:#999;font-size:30px;'>" +
+            str +
+            "<br/></p><p style='color:#999;font-size:20px;margin-left:50px;'>" +
+            str2 +
+            str1 +
+            "</p>" +
+            "<div style='text-align:center;margin-top:20px;' ><img src='/plug/image/signal.png'/></div>" +
+            "</div></div>"
+        );
+        // document.execCommand("Stop");
+      }
+    })(window);
+  </script>
+</html>
