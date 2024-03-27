@@ -2,7 +2,7 @@
  * @Author: rk
  * @Description: 全局svg组件
  * @Date: 2022-02-26 14:09:22
- * @LastEditors: yangchenguang
+ * @LastEditors: rk
  * @LastEditTime: 2023-07-03 09:13:14
 -->
 

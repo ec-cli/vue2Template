@@ -2,7 +2,7 @@
  * @Author: rk
  * @Description: 标签栏组件
  * @Date: 2022-02-26 12:04:50
- * @LastEditors: tuoyouxin@fpwis.com
+ * @LastEditors: rk
  * @LastEditTime: 2023-07-14 16:30:00
 -->
 

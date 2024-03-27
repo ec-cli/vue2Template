@@ -2,8 +2,8 @@
  * @Author: rk
  * @Description: 首页
  * @Date: 2023-03-17 17:48:40
- * @LastEditors: tuoyouxin@fpwis.com
- * @LastEditTime: 2023-07-11 19:32:44
+ * @LastEditors: rk
+ * @LastEditTime: 2024-03-27 16:04:01
 -->
 
 <template>
@@ -54,6 +54,5 @@ h2 {
 .overview {
   line-height: 30px;
   color: $color-success;
-  
 }
 </style>

@@ -1,8 +1,8 @@
 /*
- * @Author: tuoyouxin@fpwis.com
+ * @Author: rk
  * @Description: echarts公共样式配置
  * @Date: 2023-02-27 16:42:22
- * @LastEditors: tuoyouxin@fpwis.com
+ * @LastEditors: rk
  * @LastEditTime: 2023-07-11 10:24:54
  */
 

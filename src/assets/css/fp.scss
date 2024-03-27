@@ -1,50 +1,53 @@
- /**
- * 通用css样式布局处理
- * Copyright (c) 2022 fengpin
+/*
+ * @Author: rk
+ * @Description: 通用css样式布局处理
+ * @Date: 2023-05-19 10:28:26
+ * @LastEditors: rk
+ * @LastEditTime: 2023-12-29 18:09:23
  */
 
 // 动态生成margin四个方向值
 @for $i from 0 through 100 {
-    .m#{$i} {
-        margin: $i + px;
-    }
+  .m#{$i} {
+    margin: $i + px;
+  }
 
-    .mt#{$i} {
-        margin-top: $i + px;
-    }
+  .mt#{$i} {
+    margin-top: $i + px;
+  }
 
-    .mr#{$i} {
-        margin-right: $i + px;
-    }
+  .mr#{$i} {
+    margin-right: $i + px;
+  }
 
-    .mb#{$i} {
-        margin-bottom: $i + px;
-    }
+  .mb#{$i} {
+    margin-bottom: $i + px;
+  }
 
-    .ml#{$i} {
-        margin-left: $i + px;
-    }
+  .ml#{$i} {
+    margin-left: $i + px;
+  }
 }
 
 // 动态生成padding四个方向值
 @for $i from 0 through 100 {
-    .p#{$i} {
-        padding: $i + px;
-    }
+  .p#{$i} {
+    padding: $i + px;
+  }
 
-    .pt#{$i} {
-        padding-top: $i + px;
-    }
+  .pt#{$i} {
+    padding-top: $i + px;
+  }
 
-    .pr#{$i} {
-        padding-right: $i + px;
-    }
+  .pr#{$i} {
+    padding-right: $i + px;
+  }
 
-    .pb#{$i} {
-        padding-bottom: $i + px;
-    }
+  .pb#{$i} {
+    padding-bottom: $i + px;
+  }
 
-    .pl#{$i} {
-        padding-left: $i + px;
-    }
+  .pl#{$i} {
+    padding-left: $i + px;
+  }
 }

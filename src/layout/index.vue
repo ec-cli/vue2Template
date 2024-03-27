@@ -1,9 +1,9 @@
 <!--
- * @Author: tuoyouxin@fpwis.com
+ * @Author: rk
  * @Description: 页面入口
  * @Date: 2022-06-08 09:53:19
  * @LastEditors: rk
- * @LastEditTime: 2023-07-31 10:45:07
+ * @LastEditTime: 2024-03-27 16:00:09
 -->
 <template>
   <div :class="classObj" class="layout-container">
@@ -183,7 +183,7 @@ export default {
   }
 
   .drawer-bg {
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, 0.3);
     width: 100%;
     top: 54px;
     bottom: 0;

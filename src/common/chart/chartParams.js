@@ -1,8 +1,8 @@
 /*
- * @Author: tuoyouxin@fpwis.com
+ * @Author: rk
  * @Description: 图表样式初始化方法
  * @Date: 2023-06-20 12:08:26
- * @LastEditors: tuoyouxin@fpwis.com
+ * @LastEditors: rk
  * @LastEditTime: 2023-07-11 10:24:19
  */
 import chartStyle from "./chartStyle";
@@ -152,7 +152,6 @@ export const chartParamsInit = (data, dark) => {
             ? chartStyle.darkColors.legendColor
             : chartStyle.lightColors.legendColor,
         },
-
       },
     ],
     xAxis: [
@@ -427,8 +426,11 @@ export const pieChartParamsInit = (data, dark) => {
       selected: data.legendSelected || null, // 图例选中状态
       orient: data.legendOrient || "vertical",
       show: data.legendShow,
-      right: data.legendOrient === "vertical" ? (data.legendRight || 0) : (data.legendRight || "center"), // 纵向展示默认靠右，横向展示默认居中
-      top: data.legendOrient === "vertical" ? "center" : (data.legendTop || 0), // 纵向展示默认居中，横向显示默认距离上边框0
+      right:
+        data.legendOrient === "vertical"
+          ? data.legendRight || 0
+          : data.legendRight || "center", // 纵向展示默认靠右，横向展示默认居中
+      top: data.legendOrient === "vertical" ? "center" : data.legendTop || 0, // 纵向展示默认居中，横向显示默认距离上边框0
       itemWidth: 11,
       itemHeight: 11,
       itemGap: data.legendGap || 16,

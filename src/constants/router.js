@@ -2,8 +2,8 @@
  * @Author: rk
  * @Description: 路由声明文件
  * @Date: 2022-06-08 09:53:19
- * @LastEditors: yangchenguang
- * @LastEditTime: 2023-06-29 14:15:22
+ * @LastEditors: rk
+ * @LastEditTime: 2024-03-27 15:58:54
  */
 
 export const routerList = [

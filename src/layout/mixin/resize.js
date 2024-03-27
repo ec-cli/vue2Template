@@ -2,8 +2,8 @@
  * @Author: rk
  * @Description: 监听屏幕尺寸变化
  * @Date: 2022-09-26 18:48:44
- * @LastEditors: yangchenguang
- * @LastEditTime: 2023-07-03 20:24:25
+ * @LastEditors: rk
+ * @LastEditTime: 2024-03-27 15:59:18
  */
 
 import store from "@/store";

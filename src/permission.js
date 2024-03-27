@@ -2,8 +2,8 @@
  * @Author: rk
  * @Description: 路由权限文件
  * @Date: 2022-09-26 15:45:39
- * @LastEditors: yangchenguang
- * @LastEditTime: 2023-06-30 16:20:00
+ * @LastEditors: rk
+ * @LastEditTime: 2024-03-27 16:04:26
  */
 import router from "./router";
 import store from "./store";

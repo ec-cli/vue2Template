@@ -1,8 +1,8 @@
 <!--
- * @Author: tuoyouxin@fpwis.com
+ * @Author: rk
  * @Description: form示例
  * @Date: 2023-07-14 09:19:06
- * @LastEditors: tuoyouxin@fpwis.com
+ * @LastEditors: rk
  * @LastEditTime: 2023-07-17 15:05:05
 -->
 <template>
@@ -136,7 +136,7 @@
           </el-input>
         </el-form-item>
         <el-form-item label="数据类型">
-          <el-select v-model="queryParams.type"  placeholder="请选择类型">
+          <el-select v-model="queryParams.type" placeholder="请选择类型">
             <el-option
               v-for="item in typeList"
               :key="item.value"
@@ -368,10 +368,10 @@ export default {
     // 表单提交
     handleSubmitClick() {
       this.$refs.addForm.validate((valid) => {
-          if (valid) {
-            // 
-          }
-        });
+        if (valid) {
+          //
+        }
+      });
     },
     // 表单重置
     handleResetClick() {

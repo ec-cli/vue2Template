@@ -3,13 +3,13 @@
  * @Description: 头部信息
  * @Date: 2022-03-21 12:30:17
  * @LastEditors: rk
- * @LastEditTime: 2024-01-02 09:42:16
+ * @LastEditTime: 2024-03-27 15:56:38
 -->
 
 <template>
   <div class="head-container">
     <div class="header-logo" :class="{ mini: !sidebar.opened }">
-      西安峰频能源模板系统
+      xxxx公司模板系统
     </div>
     <!-- 面包屑导航 -->
     <div class="header-crumbs">

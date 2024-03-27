@@ -2,7 +2,7 @@
  * @Author: rk
  * @Description: 跳转组件
  * @Date: 2022-02-26 12:04:50
- * @LastEditors: yangchenguang
+ * @LastEditors: rk
  * @LastEditTime: 2023-06-29 16:21:17
 -->
 

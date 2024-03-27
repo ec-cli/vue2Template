@@ -2,8 +2,8 @@
  * @Author: rk
  * @Description: 路由配置
  * @Date: 2022-03-21 11:47:39
- * @LastEditors: tuoyouxin@fpwis.com
- * @LastEditTime: 2023-07-11 19:37:35
+ * @LastEditors: rk
+ * @LastEditTime: 2024-03-27 16:00:35
  */
 
 import Vue from "vue";

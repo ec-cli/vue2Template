@@ -2,7 +2,7 @@
  * @Author: rk
  * @Description: 主题切换
  * @Date: 2022-02-26 09:18:07
- * @LastEditors: tuoyouxin@fpwis.com
+ * @LastEditors: rk
  * @LastEditTime: 2023-07-12 17:32:55
  */
 
@@ -12,7 +12,7 @@
  */
 const switchTheme = (dark) => {
   let _body = document.getElementsByTagName("body")[0];
-  
+
   // 文字颜色
   _body.style.setProperty(
     "--fontColorPrimary",

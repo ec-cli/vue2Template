@@ -2,7 +2,7 @@
  * @Author: rk
  * @Description: 全局注册插件、过滤器、指令
  * @Date: 2022-02-26 09:18:07
- * @LastEditors: yangchenguang
+ * @LastEditors: rk
  * @LastEditTime: 2023-06-29 11:49:04
  */
 

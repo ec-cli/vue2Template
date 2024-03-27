@@ -1,8 +1,8 @@
 <!--
- * @Author: tuoyouxin@fpwis.com
+ * @Author: rk
  * @Description: echart图表（支持折线图、柱状图、饼状图）
  * @Date: 2023-11-16 16:27:39
- * @LastEditors: tuoyouxin@fpwis.com
+ * @LastEditors: rk
  * @LastEditTime: 2023-11-17 09:25:16
 -->
 <template>
@@ -63,11 +63,11 @@ export default {
       handler(newVal, oldVal) {
         this.$nextTick(() => {
           this.handleChartRender();
-            this.handleChartResize();
+          this.handleChartResize();
         });
       },
       deep: true,
-      immediate: true
+      immediate: true,
     },
     listenChange2: {
       handler(newVal, oldVal) {
@@ -87,7 +87,7 @@ export default {
       const that = this;
       let dom = document.getElementById(that.id);
       // 初始化图表实例
-      if(dom) {
+      if (dom) {
         that.myChart = that.$echarts.init(dom, null, { devicePixelRatio: 2 });
       }
       window.addEventListener(

@@ -1,9 +1,9 @@
 /*
- * @Author: tuoyouxin@fpwis.com
+ * @Author: rk
  * @Description: 全局常量字典 非全局常量字典在具体模块下定义
  * @Date: 2022-06-08 09:53:19
- * @LastEditors: tuoyouxin@fpwis.com
- * @LastEditTime: 2023-12-27 11:42:57
+ * @LastEditors: rk
+ * @LastEditTime: 2024-03-27 15:58:47
  */
 
 // 时间周期类型

@@ -2,7 +2,7 @@
  * @Author: rk
  * @Description: 用户详情页面
  * @Date: 2023-03-17 17:48:40
- * @LastEditors: yangchenguang
+ * @LastEditors: rk
  * @LastEditTime: 2023-06-29 19:58:03
 -->
 

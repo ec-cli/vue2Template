@@ -1,8 +1,8 @@
 /*
- * @Author: xiexiaoyan xiexiaoyan@fpwis.com
+ * @Author: rk
  * @Description: 弹框拖拽
  * @Date: 2023-02-21 11:03:11
- * @LastEditors: yangchenguang
+ * @LastEditors: rk
  * @LastEditTime: 2023-06-29 11:37:33
  */
 

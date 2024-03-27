@@ -1,9 +1,9 @@
 /*
- * @Author: yangchenguang
+ * @Author: rk
  * @Description: 全局文件入口
  * @Date: 2023-06-30 11:27:45
- * @LastEditors: tuoyouxin@fpwis.com
- * @LastEditTime: 2023-12-27 14:15:22
+ * @LastEditors: rk
+ * @LastEditTime: 2024-03-27 16:05:05
  */
 
 let path = require("path");

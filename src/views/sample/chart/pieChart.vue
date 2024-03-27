@@ -1,9 +1,9 @@
 <!--
- * @Author: tuoyouxin@fpwis.com
+ * @Author: rk
  * @Description: 饼状图实例
  * @Date: 2023-05-23 15:09:44
- * @LastEditors: tuoyouxin@fpwis.com
- * @LastEditTime: 2023-07-17 17:06:34
+ * @LastEditors: rk
+ * @LastEditTime: 2024-03-27 16:02:41
 -->
 <template>
   <div style="width: 100%; height: 100%" :id="chartId"></div>
